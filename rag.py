@@ -9,12 +9,7 @@ from qudrant import vector_store
 
 from langchain_community.chat_models import AzureChatOpenAI
 model = AzureChatOpenAI(    
-    azure_deployment="GPT4",
-    api_key="af6c5f2c43294f1e9287a50d652c637e",
-    model="gpt-4",
-    api_version="2024-02-01",
-    azure_endpoint="https://ctmatchinggpt.openai.azure.com/",
-    temperature=0,
+    
     )
 
 
